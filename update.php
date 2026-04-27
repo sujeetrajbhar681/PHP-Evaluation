@@ -28,8 +28,8 @@ if(!empty($image)){
 
     move_uploaded_file($tmp, "uploads/".$image);
 
-    $stmt = $conn->prepare("UPDATE blog SET title=?, content=?, image=? WHERE id=?");
-    $stmt->bind_param("sssi", $title, $content, $image, $id);
+    $stmt = $conn->prepare("UPDATE menu SET item_name=?, description=?, image=? WHERE id=?");
+    $stmt->bind_param("sssi", $item_name, $descrition, $image, $id);
 
 } else {
 
