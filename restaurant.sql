@@ -55,7 +55,7 @@ CREATE TABLE `user` (
   `name` varchar(100) DEFAULT NULL,
   `email` varchar(255) DEFAULT NULL,
   `password` varchar(255) DEFAULT NULL,
-  `create_at` datetime DEFAULT current_timestamp()
+  `created_at` datetime DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
