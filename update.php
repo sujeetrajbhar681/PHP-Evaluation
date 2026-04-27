@@ -45,20 +45,3 @@ if($stmt->execute()){
     
 }
 ?>
-
-git init
-git add .
-git remote add origin https://github.com
-git pull origin main
-git remote -v
-git commit -m "initial commit"
-
---git push origin main❌
---git branch -m master main/main
-
-git branch -m master main
-
-git branch -m master main
-git commit -m "initial commit"
-git push origin main
-
